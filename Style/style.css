@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    
+}
+.body{
+    margin: 1000px;
+    background-color:#fdfdfd;
+}
+.header{
+    background-color: #141024;
+}
+.section{
+    background-color: #141024;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    margin-bottom: 90px;
+    margin-right: 100px;
+    width: 100%;
+}
+.logo{
+    color: #ffffff;
+    font-family: 'Rubik Lines';
+    font: bold;
+    font-size: 48px;
+    text-decoration: none;
+    padding-top: 100xp;
+    margin-left: 100px;
+
+}
+.navigation {
+    background-color: #141024;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 28px;
+}
+.about{
+    background-color: #141024;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 32px;
+}
+.coach{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 32px;
+}
+.coast{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 32px;
+}
+.decoration{
+    color: #fdfdfd;
+    font-family: 'Roboto';
+    display: flex;
+    width: 100%;
+}
+.decoration h1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.3em;}
+.decoration h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3em;}
+.leftdec{
+    display: block;
+    max-width: 640px;
+    width: 100%;
+    position: relative;
+    height: 480px;
+    padding-left: 100px;
+    font-size: 36px;
+}
+.rightdec{
+    display: block;
+    max-width: 640px;
+    width: 100%;
+    position: relative;
+    height: 480px;
+    left: 300px;
+}
+
+.join{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fdfdfd;
+    background: #D52027;
+}
+.About_text{
+    background-color: #fdfdfd;
+    color: black;
+}
+.About_text p{
+    background-color: #fdfdfd;
+    font-size: 40px;
+    font-family: 'Roboto';
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.title1{
+    padding-left: 50px;
+    background-color: #fdfdfd;
+    color: #D52027;
+    font-family: 'Roboto';
+    font: bold;
+    font-size: 35px;
+
+
+}
+.numb{
+    background-color: #fdfdfd;
+}
+.table1{
+    background-color: #fdfdfd;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numbs{
+    font-family: 'Archivo Black';
+    font: bold;
+    font-size: 35px;
+    color: #D52027;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+.describe{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.table2{
+    background-color: #fdfdfd;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Name{
+    font-family: 'Roboto';
+    font: bold;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.prof{
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: rgb(41, 41, 41);
+    text-align: center;
+}
+.COST{
+    display: flex;
+    justify-content: space-between ;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+.p1{
+background-color:#ecebeb;
+color: #141024;
+border-radius: 10%;
+width: 360px;
+height: 400px;
+}
+.p1:hover{
+    background-color:#141024;
+    color: #fdfdfd;
+    border-radius: 10%;
+    width: 360px;
+    height: 400px;
+}
+.bottom{
+    font-family: 'Archivo Black';
+    font: bold;
+    font-size: 20px;
+    color:#fdfdfd;
+    text-align: center;
+    background-color: #D52027;
+    border-radius: 10%;
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+}
+.regidtration{
+    background-color: #D52027;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+.join{
+    background-color: #D52027;
+    color: #141024;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.footer{
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content:space-between;
+    font-weight: 500;
+    margin-bottom: 90px;
+    margin-right: 100px;
+    width: 100%;
+    color: #141024;
+    font-family: "Roboto";
+    font-size: 25px;
+   margin: auto;
+}
+.decorations{
+    text-decoration: none;
+    color: #fdfdfd;
+}
+.logo2{
+    color: #fdfdfd;
+    font-family: 'Rubik Lines';
+    font: bold;
+    font-size: 48px;
+    text-decoration: none;
+    padding-top: 100xp;
+    margin-left: 100px;
+    background-color: #141024;
+    border-radius: 5%;
+}
