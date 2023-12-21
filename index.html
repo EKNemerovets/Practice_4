@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:wght@300&family=Noto+Sans:wght@300;400;500&family=Roboto:wght@300;400;500;700&family=Rubik+Lines&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style\style.css">
+    <title>Practice_4</title>
+</head>  
+<body>
+    <header class="header">
+        <div class="section" >
+            <a class="logo" href="#">ROBO.SCHOOL</a>
+            <ul class="navigation">
+                <li><a class="about" href="#about" >О школе</a></li>
+                <li><a class="coach" href="#coach" >Тренеры</a></li>
+                <li><a class="coast" href="#cost" >Стоимость</a></li>
+            </ul>
+        </div>
+        <div class="decoration">
+            <div class="leftdec">
+                <h1>ROBO SCHOOL</h1><br>
+                <h2>Курсы повышения квалификации по робототехнике для педагогов начальной школы</h2> <br>
+                <a class="join" href="#">Записаться</a>
+            </div>
+            <div class="rightdec">
+                <img src="Images/Group 211.svg" alt="rightdec" width="640px" height="480px">
+            </div>
+        </div>
+    </header>
+    <div class="About_text">
+        <a class="title1" name="about">О школе</a>
+        <p>Robo School – учреждение для формирования кадрового педагогического резерва в сфере робототехники и программирования</p>
+        <div class="numb">
+            <table class="table1" bgcolor ='#fdfdfd' width="80%">
+                <tr class="numbs"><td>10</td><td>20</td><td>100</td><td>10000</td></tr>
+                <tr class="describe"><td>УМК по различным направлениям по робототехнике</td><td>Школ, в которых запущена робототехника</td><td>Педагогов прошедших курсы повышения квалификации</td><td>Обученных детей на базе собственных центров</td></tr>
+            </table>
+        </div>
+        <img src="Images/Group 306.svg" alt="facts" width="100%">
+    </div>
+    <div class="COACHES">
+        <a class="title1" name="coach">Профессиональные тренеры</a>
+        <div class="coaches">
+            <table class="table2" bgcolor ='#fdfdfd' width="80%">
+                <tr class="photo"><td><img src="Images\Ирина.svg" alt="c1"></td><td><img src="Images\Максим.svg" alt="c2"></td><td><img src="Images\Марина.svg" alt="c3"></td><td><img src="Images\Константин.svg" alt="c4"></td></tr>
+                <tr class="Name"><td>Ирина Лайм</td><td>Максим Петров</td><td>Марина Орлова</td><td>Константина Назаров</td></tr>
+                <tr class="prof"><td>преподаватель по робототехнике</td><td>преподаватель по программированию</td><td>преподаватель по робототехнике</td><td>преподаватель по программированию</td></tr>
+            </table>
+        </div>
+    </div>
+    <a class="title1" name="cost">Выберите нужный пакет</a>
+    <p> </p> <br>
+    <div class="COST">
+        <div class="p1">
+            <h1 style="font-size: 30px; font-family:'Archivo Black'; font: bold; text-align: center">-PRO-</h1><br>
+            <p> </p> <br>
+            <h2 style="font-size: 40px; font-family:'Archivo Black'; font: bold; text-align: center">20.000 ₽</h2>
+            <h3 style="font-size: 20px; font-family:'Archivo Black';  text-align: center">УМК по робототехнике и программированию</h3>
+            <p> </p> <br>
+            <div class="bottom"><a href="#join" style="text-decoration: none; color: #fdfdfd;">Оставить заявку</a></div>
+        </div>
+        <div class="p1">
+            <h1 style="font-size: 30px; font-family:'Archivo Black'; font: bold; text-align: center">-ROBO-</h1><br>
+            <p> </p> <br>
+            <h2 style="font-size: 40px; font-family:'Archivo Black'; font: bold; text-align: center">15.000 ₽</h2>
+            <h3 style="font-size: 20px; font-family:'Archivo Black';  text-align: center">УМК по робототехнике</h3>
+            <p> </p> <br>
+            <div class="bottom"><a href="#join" style="text-decoration: none; color: #fdfdfd;">Оставить заявку</a></div>
+        </div>
+        <div class="p1">
+            <h1 style="font-size: 30px; font-family:'Archivo Black'; font: bold; text-align: center">-PROG-</h1><br>
+            <p> </p> <br>
+            <h2 style="font-size: 40px; font-family:'Archivo Black'; font: bold; text-align: center">10.000 ₽</h2>
+            <h3 style="font-size: 20px; font-family:'Archivo Black';  text-align: center">УМК по программированию</h3>
+            <p> </p> <br>
+            <div class="bottom"><a href="#join" style="text-decoration: none; color: #fdfdfd;">Оставить заявку</a></div>
+        </div>
+    </div>
+    <div class="registration">
+        <a name="join"></a>
+        <form action="#" method="get" class="join">
+            <input type="text" name="Username" id="Username" placeholder="Введите ваше имя" required tabindex="1">
+            <br>
+            <input type="email" name="Usermail" id="Usermail" placeholder="example@gmail.com" required tabindex="2" >
+            <br>
+            <input type="tel" name="tel" placeholder="+7 (___) ___-__-__">
+            <p> </p> <br>
+            <button type="submit" style="background-color: #141024; color: #fdfdfd;">Отправить</button>
+            <button type="reset" style="background-color: #141024; color: #fdfdfd;">Отчистить</button>
+    </div>
+    <footer>
+        <div class="footer" >
+            <a class="logo2" href="#">ROBO.SCHOOL</a>
+            <p>+79909991111</p>
+            
+    </footer> 
+</body>
+
+</html>
